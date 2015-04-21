@@ -23,11 +23,11 @@ and password).
     <h2>{{heading}}</h2>
     <content select="[top]"></content>
     <content select="[identifierHeading]"></content>
-    <paper-input-decorator floatingLabel label="{{identification}}" hidden?="{{hideIdInput==true}}">
+    <paper-input-decorator label="{{identification}}" hidden?="{{hideIdInput==true}}">
      <input is="core-input" id="identifierInput" value="{{identifier}}" placeholder="{{identification}}" hidden?="{{hideIdInput==true}}"></paper-input>
     </paper-input-decorator>
     <content select="[passwordHeading]"></content>
-    <paper-input-decorator floatingLabel label="Password">
+    <paper-input-decorator label="Password">
       <input is="core-input" id="passwordInput" value="{{password}}" placeholder="Password" type="password">
     </paper-input-decorator>
     <paper-button id="submitbutton" raised on-click="{{validate}}">{{submit}}</paper-button>
