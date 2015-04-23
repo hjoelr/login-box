@@ -7,7 +7,7 @@ See the [component page](http://adracus.github.io/login-box) for more informatio
 
 Download the element using bower. For that, enter
 
-    bower install --save login-box
+    bower install --save hjoelr/login-box
 
 And the element will be installed and persisted in your bower.json.
 
